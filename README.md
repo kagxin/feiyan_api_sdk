@@ -21,13 +21,8 @@ if __name__ == '__main__':
             "pageSize": 10
         }
     }
-    """
-    调用接口 /cloud/thing/productList/get
-    把接口地址的的 '/' 去掉换为 '_' 即为函数名， 函数名不区分大小写
-    cloud_thing_productlist_get
-    cloud_thing_productList_get  都可以
-    """
-    res = client.cloud_thing_productlist_get(params=params)  # 调用接口
+
+    res = client.cloud_thing_product_list_get(params=params)  # 调用接口
     print(res)
 
 ```
