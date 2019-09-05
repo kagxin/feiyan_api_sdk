@@ -68,9 +68,9 @@ if __name__ == '__main__':
 ```
 可以使用 client.cloud_thing_productlist_get
 也可以使用 client.cloud_thing_productList_get
-也可以使用 client.cloud_thing_product_list_get 进行调用
+也可以使用 client.cloud_thing_product_list_get 进行调用
 其实只要，函数名中的字符串(不包含/ - _)和接口中的字符串一致即可(不包含/ - _)
-使用client.cloudthingproductlistget 也可以完成调用
+使用client.cloudthingproductlistget 也可以完成调用
 ```
 
 ### 阿里飞燕文档
