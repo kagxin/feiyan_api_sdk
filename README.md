@@ -57,9 +57,9 @@ if __name__ == '__main__':
     FEIYAN_TMALL_API_APP_SECRET = ''
     FEIYAN_TMALL_PROJECT_ID = ''
 
-    redis_storage = CustomStorage()  # 使用 redis 存储 token
+    django_cache_storage = CustomStorage()  # 使用 django cache 存储 token
     client = FyClient(app_key=FEIYAN_TMALL_API_APP_KEY, app_secret=FEIYAN_TMALL_API_APP_SECRET,
-                      project_res=FEIYAN_TMALL_PROJECT_ID, storage=redis_storage)
+                      project_res=FEIYAN_TMALL_PROJECT_ID, storage=django_cache_storage)
 
 ```
 * 接口对应函数名灵活
